@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:beige;
+}
+
+.game-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin-top: 200px;
+}
+img{
+    height: 200px;
+    width:200px;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+    
+}
