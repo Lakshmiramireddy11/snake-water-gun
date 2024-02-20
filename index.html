@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snake Water Gun game</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="game-images" id="game-images">
-        <img src="snake.AVIF" id="sanke">
-        <img src="water.AVIF" id="water">
-        <img src="gun.AVIF" id="gun">
+    <h1>Snake Water Gun</h1>
+    <div class="choices">
+        <div class="choice" id="snake">
+            <img src="snake.AVIF"/>
+        </div>
+        <div class="choice" id="water">
+            <img src="water.AVIF"/>
+        </div>
+        <div class="choice" id="gun">
+            <img src="gun.AVIF"/>
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="computer-score">0</p>
+            <p >comp</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">play your move</p>
     </div>
     <script src="game.js"></script>
 </body>
