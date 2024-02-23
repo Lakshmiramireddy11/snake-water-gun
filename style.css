@@ -11,8 +11,8 @@ h1{
     line-height: 3rem;
 }
 .choice{
-    height: 125px;
-    width: 125px;
+    height: 125px!important;
+    width: 125px !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +40,12 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 2rem !important;
     margin-top: 3rem;
     gap:3rem;
 }
 #user-score,#computer-score{
-    font-size: 4rem;
+    font-size: 4rem !important;
 }
 .msg-container{
     margin-top: 3rem;
@@ -58,5 +58,26 @@ img{
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
-    font-size: 1rem;
+    font-size: 1rem !important;
 }
+@media(min-width:320px){
+    .choice{
+        height: 100px !important;
+        width: 55px !important;  
+    }
+    .msg-container{
+        margin-top: 10px;
+    }
+}
+/* @media (min-width:468px) {
+ 
+}
+@media (min-width:768px) {
+ 
+}
+@media (min-width:1024px) {
+   
+}
+@media (min-width:1200px) {
+   
+} */
